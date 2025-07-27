@@ -3,13 +3,13 @@ import Image from 'next/image'
 const categories = [
   {
     id: 'vegetable',
-    title: 'VEGETABLE',
+    title: 'RAU CỦ',
     image: '/images/IMG_2920.JPG',
     description: 'Rau củ quả tươi ngon'
   },
   {
     id: 'fruit',
-    title: 'FRUIT',
+    title: 'TRÁI CÂY',
     image: '/images/IMG_2924.JPG',
     description: 'Trái cây tươi mới'
   },
@@ -21,7 +21,7 @@ const categories = [
   },
   {
     id: 'dried',
-    title: 'DRIED',
+    title: 'SẤY KHÔ',
     image: '/images/IMG_2938.JPG',
     description: 'Thực phẩm sấy khô'
   }
@@ -34,7 +34,7 @@ export default function GallerySection() {
         {categories.map((category, index) => (
           <div
             key={category.id}
-            className="category-card h-80"
+            className="category-card group h-80"
           >
             <div className="relative w-full h-full">
               <Image

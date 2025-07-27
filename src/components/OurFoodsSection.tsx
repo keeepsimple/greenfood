@@ -6,7 +6,7 @@ import ProductModal from './ProductModal'
 
 const foods = [
   {
-    name: 'Hotpot Ball Cua Stick',
+    name: 'Viên Hotpot Ball Cua Que',
     image: '/images/IMG_2861.JPG',
     description: 'Viên hotpot ball cua tươi ngon với hương vị đậm đà',
     detailedDescription: 'Viên hotpot ball cua được chế biến từ thịt cua tươi ngon, kết hợp với bột cá cao cấp và gia vị đặc biệt. Sản phẩm có kết cấu dai giòn, hương vị ngọt tự nhiên của cua, rất thích hợp cho các món lẩu, nướng hoặc chiên.',
@@ -14,7 +14,7 @@ const foods = [
     price: '125.000đ / kg'
   },
   {
-    name: 'Fish Ball Premium',
+    name: 'Viên Cá Cao Cấp',
     image: '/images/IMG_2865.JPG', 
     description: 'Viên cá cao cấp làm từ cá tươi 100%',
     detailedDescription: 'Viên cá premium được làm từ cá tra tươi 100%, không sử dụng chất bảo quản hay phẩm màu nhân tạo. Kết cấu mềm mại, thơm ngon, giàu protein và omega-3 tốt cho sức khỏe.',
@@ -22,7 +22,7 @@ const foods = [
     price: '95.000đ / kg'
   },
   {
-    name: 'Mixed Hotpot Set',
+    name: 'Bộ Combo Hotpot Đa Dạng',
     image: '/images/IMG_2870.JPG',
     description: 'Combo đa dạng các loại viên hotpot ball',
     detailedDescription: 'Bộ combo đa dạng bao gồm nhiều loại viên khác nhau: viên cá, viên tôm, viên bò, viên gà. Mỗi loại đều có hương vị riêng biệt, tạo nên trải nghiệm ẩm thực phong phú cho bữa lẩu gia đình.',
@@ -30,7 +30,7 @@ const foods = [
     price: '110.000đ / kg'
   },
   {
-    name: 'Shrimp Ball Deluxe',
+    name: 'Viên Tôm Siêu Cấp',
     image: '/images/IMG_2901.JPG',
     description: 'Viên tôm cao cấp với tôm tươi nguyên con',
     detailedDescription: 'Viên tôm deluxe được làm từ tôm sú tươi nguyên con, giữ nguyên vị ngọt tự nhiên của tôm. Bên trong mỗi viên đều có miếng tôm to, tạo cảm giác dai giòn và thơm ngon đặc biệt.',
@@ -38,7 +38,7 @@ const foods = [
     price: '165.000đ / kg'
   },
   {
-    name: 'Beef Ball Special',
+    name: 'Viên Bò Đặc Biệt',
     image: '/images/IMG_2911 (1).JPG',
     description: 'Viên bò đặc biệt từ thịt bò Úc nhập khẩu',
     detailedDescription: 'Viên bò special được chế biến từ thịt bò Úc cao cấp, có kết cấu chắc nịch, hương vị đậm đà. Quy trình sản xuất khép kín, đảm bảo chất lượng và an toàn thực phẩm tuyệt đối.',
@@ -46,7 +46,7 @@ const foods = [
     price: '185.000đ / kg'
   },
   {
-    name: 'Squid Ball Fresh',
+    name: 'Viên Mực Tươi',
     image: '/images/IMG_2920.JPG',
     description: 'Viên mực tươi với độ dai giòn hoàn hảo',
     detailedDescription: 'Viên mực tươi được làm từ mực ống tươi ngon, có độ dai giòn đặc trưng. Hương vị biển đậm đà, rất thích hợp cho các món lẩu hải sản, nướng BBQ hoặc chiên giòn.',
@@ -54,7 +54,7 @@ const foods = [
     price: '145.000đ / kg'
   },
   {
-    name: 'Chicken Ball Tender',
+    name: 'Viên Gà Mềm Mại',
     image: '/images/IMG_2924.JPG',
     description: 'Viên gà mềm mại từ thịt gà ta thuần chủng',
     detailedDescription: 'Viên gà tender được chế biến từ thịt gà ta thuần chủng, thịt mềm ngọt tự nhiên. Kết cấu mịn màng, vị nhẹ nhàng, rất phù hợp cho trẻ em và người cao tuổi.',
@@ -62,7 +62,7 @@ const foods = [
     price: '85.000đ / kg'
   },
   {
-    name: 'Pork Ball Traditional',
+    name: 'Viên Heo Truyền Thống',
     image: '/images/IMG_2927.JPG',
     description: 'Viên heo truyền thống theo công thức gia truyền',
     detailedDescription: 'Viên heo truyền thống được chế biến theo công thức gia truyền hơn 50 năm. Sử dụng thịt heo sạch, gia vị cân bằng, tạo nên hương vị đậm đà, quen thuộc của người Việt.',
@@ -70,7 +70,7 @@ const foods = [
     price: '75.000đ / kg'
   },
   {
-    name: 'Fish Cake Authentic',
+    name: 'Chả Cá Nguyên Chất',
     image: '/images/IMG_2938.JPG',
     description: 'Chả cá thật nguyên chất không chất bảo quản',
     detailedDescription: 'Chả cá authentic được làm hoàn toàn thủ công, từ cá tươi nguyên con. Không sử dụng bất kỳ chất bảo quản nào, giữ nguyên hương vị tự nhiên và giá trị dinh dưỡng của cá.',
@@ -78,7 +78,7 @@ const foods = [
     price: '135.000đ / kg'
   },
   {
-    name: 'Premium Mix Package',
+    name: 'Gói Combo Cao Cấp',
     image: '/images/IMG_2949.JPG',
     description: 'Gói combo cao cấp đa dạng hương vị',
     detailedDescription: 'Gói premium mix là sự kết hợp hoàn hảo của tất cả các loại viên cao cấp nhất. Bao gồm viên cua, viên tôm, viên bò, chả cá, tạo nên bữa tiệc lẩu sang trọng và đẳng cấp.',

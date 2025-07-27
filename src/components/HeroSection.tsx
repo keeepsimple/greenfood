@@ -9,15 +9,15 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="bg-lime-400 rounded-3xl p-8 lg:p-12">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Something hot.<br />
-              Something tasty.
+              Những món nóng hổi.<br />
+              Những hương vị tuyệt vời.
             </h1>
             <p className="text-gray-800 text-lg mb-8 leading-relaxed">
               Đặt đồ ăn bất cứ lúc nào và chúng tôi sẽ giao hàng an toàn 
               đến tận nhà và <span className="font-semibold">NHIỀU HƠN NỮA</span>.
             </p>
             <button className="bg-gray-900 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors">
-              Order Now
+              Đặt Hàng Ngay
             </button>
           </div>
           
