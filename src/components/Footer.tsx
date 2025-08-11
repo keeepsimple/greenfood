@@ -10,9 +10,9 @@ export default function Footer() {
                 <span className="font-medium">Địa chỉ:</span>
               </p>
               <p className="text-brand-100">
-                Lạc Long Quân, Phường Xuân La
+                Kim Mã,
                 <br />
-                Quận Tây Hồ, TP. Hà Nội, Việt Nam
+                Quận Ba Đình, TP. Hà Nội, Việt Nam
               </p>
               <p className="text-brand-100">
                 <span className="font-medium">Điện thoại:</span> 0123 456 789
