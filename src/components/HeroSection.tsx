@@ -1,26 +1,32 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <section className="bg-gray-50 py-12 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="bg-lime-400 rounded-3xl p-8 lg:p-12">
+          <div className="bg-brand-800 rounded-3xl p-8 lg:p-12 text-white">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Những món nóng hổi.<br />
-              Những hương vị tuyệt vời.
+              <span className="text-white">Tươi ngon từng miếng,</span>
+              <br />
+              <span className="text-white">đậm vị biển cả</span>
             </h1>
-            <p className="text-gray-800 text-lg mb-8 leading-relaxed">
-              Đặt đồ ăn bất cứ lúc nào và chúng tôi sẽ giao hàng an toàn 
-              đến tận nhà và <span className="font-semibold">NHIỀU HƠN NỮA</span>.
+            <p className="text-white/90 text-lg mb-8 leading-relaxed">
+              <span className="font-semibold">Surimi Tama</span> – ngon chuẩn
+              vị, giao tận nhà.
             </p>
-            <button className="bg-gray-900 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors">
+            <a
+              href="https://www.facebook.com/profile.php?id=61577243606780"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-brand-800 px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-100 transition-colors"
+            >
               Đặt Hàng Ngay
-            </button>
+            </a>
           </div>
-          
+
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="bg-white rounded-2xl p-4 shadow-sm">
@@ -66,5 +72,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

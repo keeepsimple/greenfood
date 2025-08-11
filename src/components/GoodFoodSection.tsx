@@ -5,7 +5,7 @@ export default function GoodFoodSection() {
     <section className="bg-gray-900 text-white py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-right mb-8">
-          <div className="text-sm text-gray-400 mb-2">GreenFood</div>
+          <div className="text-sm text-gray-400 mb-2"></div>
           <div className="text-sm text-gray-400"></div>
         </div>
 

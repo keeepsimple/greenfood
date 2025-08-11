@@ -113,7 +113,7 @@ export default function VideoSection() {
                     {playingVideo !== video.id && (
                       <button
                         onClick={() => handlePlayVideo(video.id)}
-                        className="bg-lime-400 hover:bg-lime-500 text-gray-900 font-medium px-4 py-2 rounded-full transition-colors text-sm"
+                        className="bg-brand-800 hover:bg-brand-700 text-white font-medium px-4 py-2 rounded-full transition-colors text-sm"
                       >
                         Xem Video
                       </button>
@@ -123,34 +123,6 @@ export default function VideoSection() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Call to action */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-lime-400 to-green-400 rounded-3xl p-8 lg:p-12">
-            <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Muốn Học Thêm Cách Chế Biến?
-            </h3>
-            <p className="text-gray-800 text-lg mb-6 max-w-2xl mx-auto">
-              Theo dõi kênh YouTube của chúng tôi để cập nhật thêm nhiều video
-              hướng dẫn chế biến viên thả lẩu ngon và bổ dưỡng
-            </p>
-            <a
-              href="https://youtube.com/@greenfood"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-3 rounded-full transition-colors"
-            >
-              <svg
-                className="w-5 h-5 mr-2"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path d="M2 6a2 2 0 012-2h6l2 2h6a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
-              </svg>
-              Đăng Ký Kênh YouTube
-            </a>
-          </div>
         </div>
       </div>
     </section>

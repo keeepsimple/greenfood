@@ -1,10 +1,10 @@
-import Header from '@/components/Header'
-import OurFoodsSection from '@/components/OurFoodsSection'
+import Header from "@/components/Header";
+import OurFoodsSection from "@/components/OurFoodsSection";
 
 export const metadata = {
-  title: 'Our Foods - Hotpot Ball Premium',
-  description: 'Khám phá bộ sưu tập đầy đủ các loại hotpot ball premium của chúng tôi'
-}
+  title: "Sản phẩm của chúng tôi - Viên thả lẩu",
+  description: "Khám phá bộ sưu tập đầy đủ các loại viên thả lẩu của chúng tôi",
+};
 
 export default function OurFoodsPage() {
   return (
@@ -12,5 +12,5 @@ export default function OurFoodsPage() {
       <Header />
       <OurFoodsSection />
     </main>
-  )
+  );
 }

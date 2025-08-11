@@ -8,100 +8,100 @@ const reviews = [
     name: "Nguyễn Thị Mai",
     location: "Hà Nội",
     rating: 5,
-    date: "2024-01-15",
+    date: "2025-07-28",
     review:
-      "Viên hotpot ball cua que thật sự rất ngon! Vị cua tươi ngọt tự nhiên, kết cấu dai giòn vừa phải. Gia đình tôi rất thích và sẽ đặt hàng thường xuyên.",
-    product: "Viên Hotpot Ball Cua Que",
+      "Thanh Surimi Hương Vị Cua thơm mùi cua, ăn dai giòn rất vui miệng. Chấm chút nước mắm tỏi ớt là hết veo cả gói.",
+    product: "Thanh Surimi Hương Vị Cua",
   },
   {
     id: 2,
     name: "Trần Văn Hùng",
     location: "TP. Hồ Chí Minh",
-    rating: 5,
-    date: "2024-01-12",
+    rating: 4,
+    date: "2025-07-15",
     review:
-      "Chất lượng sản phẩm xuất sắc! Viên cá cao cấp thực sự không có mùi tanh, thịt cá tươi ngon. Đóng gói cẩn thận, giao hàng nhanh chóng.",
-    product: "Viên Cá Cao Cấp",
+      "Viên Cá HIRECO thịt cá chắc, không bị bở và không tanh. Hơi đậm vị một chút nhưng ăn cùng rau và bún là vừa.",
+    product: "Viên Cá HIRECO",
   },
   {
     id: 3,
     name: "Lê Thị Hương",
     location: "Đà Nẵng",
     rating: 5,
-    date: "2024-01-10",
+    date: "2025-06-30",
     review:
-      "Bộ combo hotpot đa dạng rất tiện lợi cho gia đình. Nhiều loại viên khác nhau, mỗi loại đều có hương vị riêng biệt. Giá cả hợp lý.",
-    product: "Bộ Combo Hotpot Đa Dạng",
+      "Viên Mực GESO có miếng mực nhỏ bên trong nên cắn rất vui, độ dai giòn tự nhiên, bé nhà mình mê lắm.",
+    product: "Viên Mực GESO",
   },
   {
     id: 4,
     name: "Phạm Minh Đức",
     location: "Cần Thơ",
     rating: 5,
-    date: "2024-01-08",
+    date: "2025-06-10",
     review:
-      "Viên tôm siêu cấp thật sự đúng tên gọi! Trong mỗi viên đều có miếng tôm to, tươi ngon. Ăn lẩu với viên tôm này thật tuyệt vời.",
-    product: "Viên Tôm Siêu Cấp",
+      "Tôm Viên ngọt thịt, nấu lẩu hay chiên đều ngon. Đóng gói gọn gàng, giao nhanh, ăn rất tiện.",
+    product: "Tôm Viên",
   },
   {
     id: 5,
     name: "Hoàng Thị Lan",
     location: "Hải Phòng",
-    rating: 5,
-    date: "2024-01-05",
+    rating: 4,
+    date: "2025-05-25",
     review:
-      "Viên bò đặc biệt có hương vị đậm đà, thịt bò Úc thật sự chất lượng cao. Kết cấu chắc nịch, rất thích hợp cho món lẩu gia đình.",
-    product: "Viên Bò Đặc Biệt",
+      "Tempura Xiên Que ăn nhâm nhi rất vui, lớp ngoài có độ thơm nhẹ. Chiên lên hơi hút dầu nếu để lửa nhỏ, để lớn hơn là ổn.",
+    product: "Tempura Xiên Que",
   },
   {
     id: 6,
     name: "Vũ Văn Thành",
     location: "Nha Trang",
-    rating: 5,
-    date: "2024-01-03",
+    rating: 4,
+    date: "2025-05-05",
     review:
-      "Viên mực tươi có độ dai giòn đặc trưng, hương vị biển đậm đà. Rất phù hợp cho các món nướng BBQ. Sẽ ủng hộ shop lâu dài.",
-    product: "Viên Mực Tươi",
+      "Đậu Hũ Surimi mềm mịn, thơm nhẹ mùi đậu nành, hợp cho trẻ nhỏ. Ăn với nước dùng thanh là trọn vị.",
+    product: "Đậu Hũ Surimi",
   },
   {
     id: 7,
     name: "Đinh Thị Thu",
     location: "Huế",
     rating: 5,
-    date: "2023-12-28",
+    date: "2025-04-20",
     review:
-      "Viên gà mềm mại rất phù hợp cho con nhỏ. Thịt gà ta thuần chủng, vị nhẹ nhàng không bị khô. Bé nhà tôi rất thích ăn.",
-    product: "Viên Gà Mềm Mại",
+      "Viên Cá HIRECO ăn rất chắc thịt, cảm giác nhiều cá thật. Rất hợp làm topping cho bún và mì.",
+    product: "Viên Cá HIRECO",
   },
   {
     id: 8,
     name: "Bùi Văn Nam",
     location: "Vũng Tàu",
-    rating: 5,
-    date: "2023-12-25",
+    rating: 4,
+    date: "2025-03-18",
     review:
-      "Viên heo truyền thống có hương vị quen thuộc, gợi nhớ về món ăn tuổi thơ. Gia vị cân bằng, không quá mặn. Đóng gói sạch sẽ.",
-    product: "Viên Heo Truyền Thống",
+      "Thanh Surimi Hương Vị Cua vị cua rõ ràng, hơi ngọt hậu. Nướng ăn kèm sốt mayonnaise là hết sạch.",
+    product: "Thanh Surimi Hương Vị Cua",
   },
   {
     id: 9,
     name: "Ngô Thị Xuân",
     location: "Quy Nhơn",
     rating: 5,
-    date: "2023-12-22",
+    date: "2025-02-14",
     review:
-      "Chả cá nguyên chất thực sự không có chất bảo quản, ăn rất an tâm. Hương vị tự nhiên của cá, làm thủ công nên rất thơm ngon.",
-    product: "Chả Cá Nguyên Chất",
+      "Viên Mực GESO cắn trúng miếng mực giòn sật rất thích. Cả nhà khen ngon, sẽ đặt lại.",
+    product: "Viên Mực GESO",
   },
   {
     id: 10,
     name: "Lý Văn Phong",
     location: "Biên Hòa",
     rating: 5,
-    date: "2023-12-20",
+    date: "2025-01-22",
     review:
-      "Gói combo cao cấp xứng đáng với giá tiền. Tất cả các loại viên đều chất lượng cao, tạo nên bữa tiệc lẩu sang trọng cho gia đình.",
-    product: "Gói Combo Cao Cấp",
+      "Tôm Viên ngọt và thơm, không hề bở. Cho vào nồi lẩu tầm 3–4 phút là vừa chín tới, ăn rất đã.",
+    product: "Tôm Viên",
   },
 ];
 
@@ -144,8 +144,7 @@ export default function ReviewsPage() {
             Đánh Giá Khách Hàng
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Khám phá những đánh giá chân thực từ khách hàng đã trải nghiệm sản
-            phẩm hotpot ball cao cấp của chúng tôi
+            Lắng nghe chia sẻ thật từ khách hàng đã thưởng thức Surimi Tama.
           </p>
         </div>
 
@@ -205,7 +204,7 @@ export default function ReviewsPage() {
               </div>
 
               <div className="mb-4">
-                <span className="inline-block bg-lime-100 text-lime-800 text-xs px-2 py-1 rounded-full">
+                <span className="inline-block bg-brand-800/10 text-brand-800 text-xs px-2 py-1 rounded-full">
                   {review.product}
                 </span>
               </div>
@@ -217,7 +216,7 @@ export default function ReviewsPage() {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-lime-400 to-green-500 rounded-2xl p-8 text-white">
+          <div className="bg-brand-800 rounded-2xl p-8 text-white">
             <h2 className="text-3xl font-bold mb-4">
               Chia Sẻ Trải Nghiệm Của Bạn
             </h2>
@@ -225,7 +224,7 @@ export default function ReviewsPage() {
               Hãy để lại đánh giá của bạn để giúp những khách hàng khác có lựa
               chọn tốt nhất
             </p>
-            <button className="bg-white text-gray-900 font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors">
+            <button className="bg-white text-brand-800 font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition-colors">
               Viết Đánh Giá
             </button>
           </div>

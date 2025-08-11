@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "name": "Thanh Surimi Hương Vị Cua",
+      "ingredients": "Thịt cá xay (47%), tinh bột sắn, đường, muối, bột trứng, gia vị nấu ăn mirin, hương cua giống tự nhiên, màu thực phẩm giống tự nhiên (INS 120), chiết xuất cua (0.07%), dầu nành, chất điều vị (INS 621 627 631), chất ổn định (INS 451(i)), siro dầu cải.",
+      "image": "IMG_2861.JPG",
+      "variants": [
+        {
+          "weight": "250g",
+          "product_code": "TC1001"
+        },
+        {
+          "weight": "500g",
+          "product_code": "TC1002"
+        }
+      ]
+    },
+    {
+      "name": "Viên Cá HIRECO",
+      "ingredients": "Thịt cá xay (50%), tinh bột sắn, đường, muối, gia vị nấu ăn ryorishu, mật ong, chất điều vị (INS 621), chất ổn định (INS 451(i)).",
+      "image": "IMG_2911.JPG",
+      "variants": [
+        {
+          "weight": "250g",
+          "product_code": "VC1003"
+        },
+        {
+          "weight": "500g",
+          "product_code": "VC1004"
+        }
+      ]
+    },
+    {
+      "name": "Viên Mực GESO",
+      "ingredients": "Thịt cá xay, mực, tinh bột sắn, đường, dầu nành, muối, gia vị nấu ăn mirin, chất điều vị (INS 621), chất ổn định (INS 451(i)), bột trứng.",
+      "image": "IMG_2924.JPG",
+      "variants": [
+        {
+          "weight": "250g",
+          "product_code": "VM1005"
+        },
+        {
+          "weight": "500g",
+          "product_code": "VM1006"
+        }
+      ]
+    },
+    {
+      "name": "Tôm Viên",
+      "ingredients": "Thịt cá xay, tôm, đường, tinh bột sắn, tinh bột khoai tây, muối, chất điều vị (INS 621), dịch chiết từ cá ngừ, chất ổn định INS (451(i)).",
+      "image": "IMG_2870.JPG",
+      "variants": [
+        {
+          "weight": "250g",
+          "product_code": "TV1007"
+        },
+        {
+          "weight": "500g",
+          "product_code": "TV1008"
+        }
+      ]
+    },
+    {
+      "name": "Tempura Xiên Que",
+      "ingredients": "Thịt cá xay, hành lá, tinh bột sắn, gừng đỏ, đường, tinh bột mì, muối, chất điều vị, chất ổn định (INS(i))",
+      "image": "IMG_2949.JPG",
+      "variants": [
+        {
+          "weight": "250g",
+          "product_code": "TX1009"
+        }
+      ]
+    },
+    {
+      "name": "Đậu Hũ Surimi",
+      "ingredients": "Thịt cá xay, Dầu nành, Hành tây, Cà rốt, Bột đậu, Đậu nành xanh, Các loại tinh bột, gia vị, phụ gia",
+      "image": "IMG_2901.JPG",
+      "variants": [
+        {
+          "weight": "200g",
+          "product_code": "DH1010"
+        }
+      ]
+    }
+  ]
+}

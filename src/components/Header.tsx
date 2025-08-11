@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from 'react';
+import Image from "next/image";
+import { useState } from "react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,14 +14,18 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <a href="/" className="flex items-center">
-            <div className="w-8 h-8 bg-green-400 rounded-full mr-2"></div>
-            <span className="text-xl font-bold text-gray-900">
-              <span className="text-green-400">Green</span>Food
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Surimi Tama"
+              width={48}
+              height={48}
+              className="mr-3"
+            />
+            <span className="text-xl font-bold text-gray-900">Surimi Tama</span>
           </a>
 
           <nav className="hidden md:flex space-x-8">
-            {/* <a href="#service" className="flex items-center text-gray-700 hover:text-green-400 transition-colors">
+            {/* <a href="#service" className="flex items-center text-gray-700 hover:text-brand-600 transition-colors">
               <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
               </svg>
@@ -28,7 +33,7 @@ export default function Header() {
             </a> */}
             <a
               href="/our-foods"
-              className="flex items-center text-gray-700 hover:text-green-400 transition-colors"
+              className="flex items-center text-gray-700 hover:text-brand-600 transition-colors"
             >
               <svg
                 className="w-4 h-4 mr-1"
@@ -47,7 +52,7 @@ export default function Header() {
             </a>
             <a
               href="/reviews"
-              className="flex items-center text-gray-700 hover:text-green-400 transition-colors"
+              className="flex items-center text-gray-700 hover:text-brand-600 transition-colors"
             >
               <svg
                 className="w-4 h-4 mr-1"
@@ -64,36 +69,75 @@ export default function Header() {
               </svg>
               Đánh Giá
             </a>
+            <a
+              href="/kitchen"
+              className="flex items-center text-gray-700 hover:text-brand-600 transition-colors"
+            >
+              <svg
+                className="w-4 h-4 mr-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 8c-1.657 0-3 1.343-3 3v7h6v-7c0-1.657-1.343-3-3-3zm0-5a3 3 0 00-3 3v1h6V6a3 3 0 00-3-3z"
+                />
+              </svg>
+              Vào Bếp Cùng Surimi Tama
+            </a>
           </nav>
 
           <div className="flex items-center space-x-4">
-            <button className="hidden md:block bg-gray-900 text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors">
+            <a
+              href="https://www.facebook.com/profile.php?id=61577243606780"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:block bg-brand-800 text-white px-6 py-2 rounded-full hover:bg-brand-700 transition-colors"
+            >
               Đặt Hàng Ngay
-            </button>
-            
+            </a>
+
             {/* Mobile menu button */}
             <button
               onClick={toggleMobileMenu}
-              className="md:hidden p-2 rounded-md text-gray-700 hover:text-green-400 hover:bg-gray-100 transition-colors"
+              className="md:hidden p-2 rounded-md text-gray-700 hover:text-brand-600 hover:bg-gray-100 transition-colors"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
                 {isMobileMenuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 )}
               </svg>
             </button>
           </div>
         </div>
-        
+
         {/* Mobile navigation menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden border-t border-gray-200 bg-white">
             <div className="px-4 py-3 space-y-3">
               <a
                 href="/our-foods"
-                className="flex items-center text-gray-700 hover:text-green-400 transition-colors py-2"
+                className="flex items-center text-gray-700 hover:text-brand-600 transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <svg
@@ -113,7 +157,7 @@ export default function Header() {
               </a>
               <a
                 href="/reviews"
-                className="flex items-center text-gray-700 hover:text-green-400 transition-colors py-2"
+                className="flex items-center text-gray-700 hover:text-brand-600 transition-colors py-2"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <svg
@@ -131,13 +175,36 @@ export default function Header() {
                 </svg>
                 Đánh Giá
               </a>
+              <a
+                href="/vao-bep"
+                className="flex items-center text-gray-700 hover:text-brand-600 transition-colors py-2"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <svg
+                  className="w-4 h-4 mr-3"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 8c-1.657 0-3 1.343-3 3v7h6v-7c0-1.657-1.343-3-3-3zm0-5a3 3 0 00-3 3v1h6V6a3 3 0 00-3-3z"
+                  />
+                </svg>
+                Vào Bếp Cùng Surimi Tama
+              </a>
               <div className="pt-3 border-t border-gray-200">
-                <button 
-                  className="w-full bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors"
+                <a
+                  href="https://www.facebook.com/profile.php?id=61577243606780"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-block text-center bg-brand-800 text-white px-6 py-3 rounded-full hover:bg-brand-700 transition-colors"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Đặt Hàng Ngay
-                </button>
+                </a>
               </div>
             </div>
           </div>

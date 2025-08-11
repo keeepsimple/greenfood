@@ -6,7 +6,7 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply text-gray-800 bg-gray-50 font-sans;
   }
@@ -14,37 +14,37 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+    @apply bg-brand-800 hover:bg-brand-700 text-white font-medium py-3 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
   }
-  
+
   .btn-secondary {
-    @apply bg-white hover:bg-gray-50 text-green-600 font-medium py-3 px-8 rounded-full border-2 border-green-600 transition-all duration-300 hover:shadow-lg;
+    @apply bg-white hover:bg-gray-50 text-brand-800 font-medium py-3 px-8 rounded-full border-2 border-brand-800 transition-all duration-300 hover:shadow-lg;
   }
-  
+
   .section-padding {
     @apply py-20 px-4 sm:px-6 lg:px-8;
   }
-  
+
   .container-max-width {
     @apply max-w-6xl mx-auto;
   }
-  
+
   .heading-primary {
     @apply text-5xl md:text-6xl lg:text-7xl font-light text-gray-800 leading-tight;
   }
-  
+
   .heading-secondary {
     @apply text-3xl md:text-4xl font-light text-gray-800 mb-6;
   }
-  
+
   .text-body {
     @apply text-lg text-gray-600 leading-relaxed font-light;
   }
-  
+
   .feature-card {
     @apply bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100;
   }
-  
+
   .category-card {
     @apply relative overflow-hidden rounded-2xl cursor-pointer;
   }
